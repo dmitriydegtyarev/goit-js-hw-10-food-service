@@ -11,8 +11,8 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"handlebars/dist/handlebars.runtime":"pAws"}],"VyiV":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.refs=void 0;var e={body:document.querySelector("body"),menuItem:document.querySelector(".js-menu"),themeSwitchButton:document.querySelector("#theme-switch-toggle")};exports.refs=e;
 },{}],"tW6H":[function(require,module,exports) {
-"use strict";var e=u(require("../menu.json")),r=u(require("../templates/cardsDishes.hbs")),t=require("../js/refs");function u(e){return e&&e.__esModule?e:{default:e}}function n(){return(0,r.default)(e.default)}function s(){var e=n();t.refs.menuItem.insertAdjacentHTML("beforeend",e)}s();
+"use strict";var e=u(require("../menu.json")),r=u(require("../templates/cardsDishes.hbs")),t=require("../js/refs");function u(e){return e&&e.__esModule?e:{default:e}}var n=function(){return(0,r.default)(e.default)},s=function(){return t.refs.menuItem.insertAdjacentHTML("beforeend",n())};s();
 },{"../menu.json":"mA8c","../templates/cardsDishes.hbs":"J3r3","../js/refs":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./css/styles.css"),require("./js/markup"),console.log(1);
 },{"./css/styles.css":"krre","./js/markup":"tW6H"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.a895c5e9.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.f7ff3b30.js.map
