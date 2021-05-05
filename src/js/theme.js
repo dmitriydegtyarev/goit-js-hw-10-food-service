@@ -16,9 +16,11 @@ function switchTheme({ target }) {
 
 function getCurrentTheme() {
   const selectedTheme = localStorage.getItem(localStorageThemeKey);
+
   if (selectedTheme) {
     refs.themeSwitchButton.checked = selectedTheme === Theme.DARK;
-  }
+  }  
+
   return selectedTheme ? selectedTheme : Theme.LIGHT;
 }
 
